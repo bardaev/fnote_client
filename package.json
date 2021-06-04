@@ -1,0 +1,27 @@
+{
+  "name": "FnoteClient",
+  "version": "0.1.0",
+  "description": "FnoteClient application build with Electron",
+  "author": {
+    "name": "bardaev",
+    "email": ""
+  },
+  "repository": {},
+  "dependencies": {},
+  "license": "ISC",
+  "devDependencies": {
+    "bozon": "1.2.5",
+    "jest": "27.0.4",
+    "spectron": "15.0.0"
+  },
+  "build": {
+    "appId": "com.electron.fnoteclient",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
+}
